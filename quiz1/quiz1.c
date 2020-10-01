@@ -5,11 +5,8 @@
 
 int digit_sum_base(int n, int base) {
    if (n < 10):
-    return n
+    return n % base
   else:
-    return n % base + digit_sum_base(n // 10)
- 
-
-
-  return 0;
+    return n % base + digit_sum_base(n / 10)
+  ;
 }
