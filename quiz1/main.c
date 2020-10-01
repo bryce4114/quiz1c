@@ -1,5 +1,6 @@
 // Author: Bryce Graf bag5620@psu.edu
 #include <stdio.h>
+#include <readline/readline.h>
 #include "quiz1.h"
 
 int main(void) {
