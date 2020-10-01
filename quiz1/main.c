@@ -6,7 +6,7 @@
 
 int main(void) {
   int n = atoi(readline("Enter an int: "))
-  base = int(readline("Enter an int: "))
+  int base = atoi(readline("Enter an int: "))
   printf("answer is %f", digit_sum_base(n, base))
   return 0;
 }
