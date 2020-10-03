@@ -3,9 +3,10 @@
 #include "quiz1.h"
 
 int digit_sum_base(int n, int base) {
-   if (n < 10):
+  if (n /base == 0){
     return n % base;
-  else:
-    return n % base + digit_sum_base(n / 10);
-  ;
+  }
+  else{
+    return n % base + digit_sum_base(n / base, base);
+  }
 }
